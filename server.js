@@ -5,7 +5,6 @@ const morgan = require('morgan');
 const helmet = require('helmet');
 const cors = require('cors');
 
-
 const { getValidTypes } = require('./helpers.js');
 
 const POKEDEX = require('./pokedex.json');
